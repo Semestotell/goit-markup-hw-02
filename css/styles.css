@@ -1,0 +1,76 @@
+/*for_all*/
+/*delete_all_points_li*/
+li {
+  list-style-type: none;
+}
+/*logo*/
+.logo {
+  color: #2196f3;
+}
+.links-logo:active,
+.links-logo:hover,
+.links-logo {
+  color: black;
+  text-decoration: none;
+}
+/*nav_links*/
+.navigation-links:focus {
+  color: #2196f3;
+}
+.navigation-links:active,
+.navigation-links:visited,
+.navigation-links {
+  text-decoration: none;
+  color: black;
+}
+.navigation-links:hover {
+  color: #2196f3;
+}
+/*contacts*/
+.contscts:active,
+.contscts:visited,
+.contacts {
+  text-decoration: none;
+  color: black;
+}
+.contacts:hover {
+  color: #2196f3;
+}
+/*here_start_index*/
+/*info*/
+.slogan {
+  color: #fff;
+}
+.button-studio {
+  background-color: #2196f3;
+  color: #fff;
+}
+.point {
+  color: #212121;
+}
+.point-description {
+  color: #757575;
+}
+/*team*/
+.team,
+.worker-name {
+  color: #212121;
+}
+.worker-position {
+  color: #757575;
+}
+/*portfolio*/
+
+/*buttons_portfolio*/
+.button {
+  color: black;
+}
+.button:hover {
+  background-color: #2196f3;
+  cursor: pointer;
+}
+
+/*HIDE_THIS*/
+.hide {
+  opacity: 0;
+}
