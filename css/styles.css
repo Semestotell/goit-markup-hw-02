@@ -26,6 +26,14 @@ li {
 .navigation-links:hover {
   color: #2196f3;
 }
+.city {
+  text-decoration: none;
+}
+.contacts-footer {
+  text-decoration: none;
+  color: black;
+  opacity: 0.6;
+}
 /*contacts*/
 .contscts:active,
 .contscts:visited,
