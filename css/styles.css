@@ -38,39 +38,62 @@ li {
   color: #2196f3;
 }
 /*footer*/
+.footer-link-logo:active,
+.footer-link-logo:hover,
+.footer-link-logo {
+  font-family: 'Raleway';
+  font-size: 26px;
+  line-height: 1.19;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+}
+.footer{
+  background-color: #2F303A;
+}
 /*contacts*/
-.contscts:active,
-.contscts:visited,
-.contacts {
+.footer-contscts:active,
+.header-contscts:visited,
+.header-contacts {
   font-size: 14px;
   line-height: 1.14;
   font-weight: 500;
   font-style: normal;
-    /*вставленно чтобы было видно ииза цвета*/
-  background-color: #212121;
+  color: #757575;
+  text-decoration: none;
+}
+
+.header-contacts:hover {
+  color: #2196f3;
+}
+.footer-contscts:active,
+.footer-contscts:visited,
+.footer-contacts {
+  font-size: 14px;
+  line-height: 1.14;
+  font-weight: 500;
+  font-style: normal;
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
 }
-.contacts:hover {
+.footer-contacts:hover {
   color: #2196f3;
 }
 .footer-city {
 font-size: 14px;
 font-style: normal  ;
   color: #fff;
-  /*вставленно чтобы было видно ииза цвета*/
-  background-color: #212121;
 }
 
 /*here_start_index*/
 /*solution*/
+.solution{
+  background-color: #2F303A;
+}
 .solution-slogan {
   font-size: 44px;
   line-height: 1.36;
   font-weight: 900;
-  /*поставил чтобы видно было*/
-  background-color: #2F303A;
-  /*поставил чтобы было видно*/
   color: #fff;
 }
 /*в кнопку вписан шрифт потому что он не переносится*/
@@ -81,6 +104,7 @@ font-style: normal  ;
   font-weight: 700;
   background-color: #2196f3;
   color: #fff;
+  cursor: pointer;
 }
 /*information*/
 .information-point {
@@ -102,7 +126,7 @@ font-style: normal  ;
   color: #212121;
 }
 /*team*/
-.team-name {
+team-name {
   font-size: 16px;
   line-height: 1.875;
   font-weight: 500;
@@ -120,7 +144,8 @@ font-style: normal  ;
 .filter-button {
   font-family: 'Roboto';
   font-size: 16px;
-  font-weight: 500,Medium;
+  font-weight: 500;
+  font-weight: medium;
   line-height: 1.625;
   color: black;
 }
@@ -133,7 +158,8 @@ font-style: normal  ;
 .projects-title{
 font-size: 18px;
 line-height: 2;
-font-weight: 700,bold;
+font-weight: 700;
+font-weight: bold;
 color: #212121;
 }
 .projects-description{
