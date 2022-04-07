@@ -177,6 +177,9 @@ letter-spacing: 0.06em;
   color: #212121;
   text-decoration: none;
 }
+.market:hover{
+  cursor: default;
+}
 /*HIDE_THIS*/
 .hide {
   display: none;
