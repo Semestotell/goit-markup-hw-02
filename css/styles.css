@@ -1,5 +1,12 @@
+:root{
+  --paragraph-color:#757575;
+  --contacts-color:#757575;
+  --hover-hover-button-color:#fff;
+  --hover-color:#2196f3;
+  --titel-color:#212121;
+}
 /*for_all*/
-body{
+body {
   font-family: 'Roboto', Raleway, sans-serif;
   background-color: #fff;
   letter-spacing: 0.03em;
@@ -39,7 +46,7 @@ li {
 }
 .header-navigation-link:focus,
 .header-navigation-link:hover {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 /*footer*/
 .footer-link-logo:active,
@@ -61,13 +68,13 @@ li {
 .header-contacts {
   line-height: 1.14;
   font-style: normal;
-  color: #757575;
+  color:var(--contacts-color);
   text-decoration: none;
   letter-spacing: 0.02em;
 }
 
 .header-contacts:hover {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 .footer-contscts:active,
 .footer-contscts:visited,
@@ -79,7 +86,7 @@ li {
   text-decoration: none;
 }
 .footer-contacts:hover {
-  color: #2196f3;
+  color:var(--hover-color);
 }
 .footer-city {
 font-style: normal  ;
@@ -114,11 +121,10 @@ font-style: normal  ;
 .information-point {
   line-height: 1.14;
   font-weight: 700;
-  color: #212121;
 }
 .information-point-description {
   line-height: 1.71;
-  color: #757575;
+  color: var(--paragraph-color);
 }
 /*job*/
 .studio-title{
@@ -136,7 +142,7 @@ team-name {
 .team-position {
   font-size: 16px;
   line-height: 1.9;
-  color: #757575;
+  color: var(--paragraph-color);
 }
 /*portfolio*/
 
@@ -149,8 +155,8 @@ team-name {
 }
 .filter-button:hover,
 .filter-button:focus {
-  background-color: #2196f3;
-  color: #fff;
+  background-color:var(--hover-color);
+  color:var(--hover-hover-button-color);
   cursor: pointer;
 }
 /*projects*/
@@ -161,7 +167,7 @@ font-weight: 700;
 letter-spacing: 0.06em;
 }
 .projects-description{
-  color:#757575;
+  color: var(--paragraph-color);
   font-size: 16px;
   line-height: 1.9;
 }
