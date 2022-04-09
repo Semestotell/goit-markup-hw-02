@@ -50,9 +50,9 @@ li {
 }
 /*header*/
 /*nav_links*/
-.header-navigation-link-now:active,
-.header-navigation-link-now:visited,
-.header-navigation-link-now {
+.header-link-now:active,
+.header-link-now:visited,
+.header-link-now {
   color:var(--header-link-active);
   line-height: 1.14;
   font-weight: 500;
