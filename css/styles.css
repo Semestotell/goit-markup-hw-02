@@ -114,6 +114,7 @@ li {
   color:var(--hover-color);
 }
 .footer-city {
+  line-height: 1.71;
 font-style: normal  ;
   color: var(--city-color);
 }
